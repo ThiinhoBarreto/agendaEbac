@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Poppins:wght@300;400;600;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+
+body {
+    background-color: #d9e3e6;
+    padding-top: 100px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+header h1 {
+    font-family: 'Bungee', sans-serif;
+    color: #492413;
+    font-weight: normal;
+}
+header img {
+    height: 48px;
+    margin-right: 16px;
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+form {
+    display: flex;
+    max-width: 640px;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+form button {
+    background-color: #60b17b;
+    color: #ffff;
+    padding: 0px 8px;
+    border-radius: 8px;
+    font-size: 16px;
+    border: 1px solid #60b17b;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+button img {
+    width: 24px;
+    font-size: bold;
+}
+
+button span {
+    margin-right: 8px;
+} 
+
+form button:hover {
+    background-color: #387a4e;
+}
+
+form input {
+    font-size: 16px;
+    background-color: #ffff;
+    border-radius: 8px;
+    padding-left: 8px;
+    margin-right: 16px;
+}
+
+table {
+    background-color: #cfdbdf;
+    width: 100%;
+}
+
+table th {
+    border: 1px solid #878a91;
+    text-align: left;
+    padding: 0px 8px;
+    font-family: 'Bungee', sans-serif;
+    color: #492413;
+    font-weight: normal;
+    font-size: small;
+    background-color: #b4d7e2;
+
+}
+
+table td {
+    border: 1px solid #878a91;
+    padding: 0px 8px;
+}
+
+tfoot td {
+    font-family: 'Bungee', sans-serif;
+    color: #492413;
+    font-weight: normal;
+    font-size: small;
+    background-color: #b4d7e2;
+}
+

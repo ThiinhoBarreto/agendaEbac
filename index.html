@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./style.css">
+        <title>Agenda de contatos</title>
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <img src="./img/user.png" alt="logo user">
+                <h1>Agenda de contatos</h1>
+            </header>
+    
+            <form id="form" action="">
+                <input type="text" id="inputNome" required placeholder="Nome">
+                <input type="tel" name="Phone" id="inputPhone" required pattern="^\d{11}$" title="O telefone deve conter 11 dígitos: 74899005511." placeholder="74988887777">
+                <button type="submit"> <span>Adicionar</span> <img src="./img/botao-adicionar.png" alt="botao adicionar"></button>
+            </form>
+    
+            <table cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Telefone</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Beatriz</td>
+                        <td>74999998888</td>
+                    </tr>
+                    <tr>
+                        <td>Ebac</td>
+                        <td>74988887777</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td>Total de contatos</td>
+                        <td id="total">2</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+
+    </body>
+
+    <script src="./script.js"></script>
+</html>
